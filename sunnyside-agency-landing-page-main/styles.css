@@ -1,0 +1,415 @@
+body {
+	font-family: 'Barlow', sans-serif;
+	color: #848391; 
+	margin: 0;
+	text-align: center;
+}
+
+.header-container {
+	background: url("images/mobile/image-header.jpg")
+	            no-repeat bottom center; 
+	background-size: cover;
+	height: 500px;
+}
+
+.nav-container {
+	width: 90%;
+	margin: auto;
+	padding: 2em 0;
+}
+
+.container-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.selling-point-text {
+	color: #fff;
+	font-weight: 900;
+	font-size: 30px;
+	font-family: 'Fraunces', serif;
+	max-width: 50%;
+	margin: 2em auto;
+}
+
+.white-arrow {
+	display: none;
+}
+
+
+.container-grid {
+	display: grid;
+}
+
+
+nav {
+	display: none;
+}
+
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+
+a {
+	
+	text-decoration: none;
+}
+
+.learn-more {
+	font-family: 'Fraunces', serif;
+	font-size: 18px;
+	font-weight: 700;
+	display: inline-block;
+	margin: 1em 0;
+}
+
+.learn-more:last-child {
+	margin-bottom: 3em;
+}
+
+
+.pink-border {
+	border-bottom: 5px solid #FE7563;
+}
+
+
+.yellow-border {
+	border-bottom: 5px solid yellow;
+}
+
+img,svg {
+	display: block;
+	max-width: 100%;
+}
+
+
+.bg-image {
+	height: 550px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+
+
+.egg {
+	background-image: url("images/mobile/image-transform.jpg");
+}
+
+
+.cup {
+	background-image: url("images/mobile/image-stand-out.jpg");
+}
+
+
+.apple {
+	background-image: url("images/mobile/image-graphic-design.jpg");
+	align-content: end;
+}
+
+
+.orange {
+	background-image: url("images/mobile/image-photography.jpg");
+	align-content: end;
+}
+
+
+.main-item,
+.client-info,
+.main-content-heading-graphic-design,
+.content-text-graphic-design,
+.main-content-heading-photography,
+.content-text-photography {
+	width: 85%;
+	margin: 0 auto;
+}
+
+
+.main-content-heading,
+.main-content-heading-graphic-design,
+.main-content-heading-photography {
+	font-family: 'Fraunces', serif;
+	font-size: 30px;
+	color: #23303E;
+	font-weight: 900;
+	margin: 1em auto;
+}
+
+.main-item {
+	align-self: center;
+}
+
+.egg {
+	order: -1;
+}
+
+
+.darkgreen {
+	color: #25564B;
+}
+
+.bluishblack {
+	color:  #19536B;
+}
+
+.darkgreen:last-child {
+	margin-bottom: 3em;
+}
+
+.bluishblack:last-child {
+	margin-bottom: 3em;
+}
+
+.content-text,
+.content-text-graphic-design,
+.content-text-photography {
+	margin: 0 auto;
+	line-height: 1.75rem;
+}
+
+.lightgrey-text {
+	color: lightgrey;
+}
+
+.black-text {
+	color: #000;
+}
+
+section {
+	margin: 4em auto;
+	padding: 0 1em;
+}
+
+.testimonials-heading {
+	color: darkgrey;
+	font-family: 'Fraunces', serif;
+	font-size: 1.125rem;
+	letter-spacing: 0.25rem;
+	font-weight: 900;
+	margin-top: 3em;
+}
+
+.client-info {
+	margin: 1em auto;
+}
+
+
+.client-name {
+	font-weight: 900;
+	margin-bottom: 0;
+}
+
+
+.client-role {
+	font-size: 0.75rem;
+	margin-top: 0;
+}
+
+.client-photo {
+	width: 15%;
+	margin: 1em auto;
+	border-radius: 50%;
+}
+
+
+
+.secondary-images-container {
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+	height: 525px;
+}
+
+
+.bottled-milk {
+	background-image: url("images/mobile/image-gallery-milkbottles.jpg");
+}
+
+
+.orange-slice {
+	background-image: url("images/mobile/image-gallery-orange.jpg");
+}
+
+
+.biscuit-cone {
+	background-image: url("images/mobile/image-gallery-cone.jpg");
+}
+
+
+.sugar-cubes {
+	background-image: url("images/mobile/image-gallery-sugar-cubes.jpg");
+}
+
+
+.bottled-milk,
+.orange-slice,
+.biscuit-cone,
+.sugar-cubes {
+	background-size: cover;
+} 
+
+footer {
+	background-color: #90D4C5;
+	color: #25564B;	
+	padding: 3em 0;
+}
+
+.logo {
+	margin: 0 auto;
+}
+
+footer .container-flex {
+	justify-content: center;
+}
+
+footer ul {
+	margin: 2em 0;
+}
+
+footer li {
+	margin: 0 2em;
+}
+
+footer a {
+	color: #458C7E;
+}
+
+.social-media {
+	margin: 4em 0em 2em 0em;
+}
+
+footer svg {
+	margin: 0 1em;
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 599px) {
+
+	.apple,
+	.orange {
+		height: 675px;
+	}
+
+	.header-container {
+		background-position: center center;
+	}
+}
+
+
+@media screen and (min-width: 600px) {
+
+	.header-container {
+		background-image: url("images/desktop/image-header.jpg");
+		height: 650px;
+
+	}
+
+	#hamburger-menu {
+		display: none;
+	}
+
+
+	nav {
+		display: block;
+	}
+
+
+	ul {
+		justify-content: space-between;
+	}
+
+
+	li {
+		margin-left: 1.5em;
+	}
+
+
+	nav a {
+		color: #fff;
+	}
+
+
+	button {
+		font-family: 'Fraunces', serif;
+		border: 0;
+		border-radius: 25px;
+		background-color: #fff;
+		padding: 1em;
+		font-weight: 700;
+	}
+
+
+	.selling-point-text {
+		word-spacing: 0.25em;
+	}
+
+
+	.egg {
+		background-image: url("images/desktop/image-transform.jpg");
+	}
+
+
+	.egg {
+		order: 0;
+	}
+
+
+	.cup {
+		background-image: url("images/desktop/image-stand-out.jpg");
+	}
+
+
+	.apple {
+		background-image: url("images/desktop/image-graphic-design.jpg");
+		height: 600px;
+		align-content: end;
+	}
+
+
+	.orange {
+		background-image: url("images/desktop/image-photography.jpg");
+		height: 600px;
+		align-content: end;
+	}
+
+	.testimonials-container {
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 0.5em;
+	}
+
+
+	.bottled-milk {
+		background-image: url("images/desktop/image-gallery-milkbottles.jpg");
+	}
+
+
+	.orange-slice {
+		background-image: url("images/desktop/image-gallery-orange.jpg");
+	}
+
+
+	.biscuit-cone {
+		background-image: url("images/desktop/image-gallery-cone.jpg");
+	}
+
+
+	.sugar-cubes {
+		background-image: url("images/desktop/image-gallery-sugarcubes.jpg");
+	}
+
+	
+	main {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+
+	.secondary-images-container {
+		grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+		height: 400px;
+	}
+
+}
